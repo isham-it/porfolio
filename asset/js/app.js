@@ -35,8 +35,8 @@ tl.to('.letter4', {
     duration: 0.5,
     delay: -0.5,
     fontSize: '8rem',
-    x: 13,
-    y: -200,
+    x: 20,
+    y: -120,
 })
 
 tl.to('.letter5', {

@@ -139,3 +139,15 @@ nav {
     transform: rotate(85deg);
     border-width: 0 140px 200px 140px;
 }
+
+
+/*responsive*/
+
+@media all and (max-width: 1220px) {
+    .header_links1 {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+}
