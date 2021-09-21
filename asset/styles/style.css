@@ -1,153 +1,194 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: 'MAK';
-    src: url('../font/MAK-bold.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-:root {
-    --font1: 'MAK', sans-serif;
-    --font2: 'Luckiest+Guy', sans-serif;
-    --color1: rgba(1, 3, 8, 0.877);
-    --color2: rgb(239, 241, 248);
-    --color3: rgb(50, 231, 201);
-}
-
-body {
-    background: var(--color1);
-}
-
-.lines {
-    width: 100%;
-    height: 100vh;
-    background: url('../img/lines.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.05;
-}
-
-header,
-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 15vh;
-}
-
-.header_links1 {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    display: flex;
-    justify-content: space-between;
-    color: var(--color2);
-    text-transform: uppercase;
-    font-family: var(--font1);
-    width: 400px;
-    list-style: none;
-}
-
-.header_logo {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 0.5rem;
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: var(--color2);
-    font-family: var(--font1);
-}
-
-.menu {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    width: 250px;
-    font-family: var(--font1);
-}
-
-.menu a {
-    color: var(--color2);
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.header_links1 a {
-    color: var(--color2);
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.slogan {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.slogan_inner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10rem;
-    color: var(--color3);
-}
-
-.triangle {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 140px 280px 140px;
-    border-color: transparent transparent yellowgreen;
-    position: absolute;
-    transform: rotate(30deg);
-}
-
-.triangle1 {
-    top: 25%;
-    left: 99%;
-    transform: rotate(90deg);
-}
-
-.triangle2 {
-    bottom: 100%;
-    right: 20%;
-    transform: rotate(70deg);
-    border-width: 0 100px 200px 100px;
-}
-
-.triangle3 {
-    top: 90%;
-    right: 50%;
-    transform: rotate(330deg);
-    border-width: 0 140px 200px 140px;
-}
-
-.triangle4 {
-    bottom: 70%;
-    right: 80%;
-    transform: rotate(85deg);
-    border-width: 0 140px 200px 140px;
-}
-
-
-/*responsive*/
-
-@media all and (max-width: 1220px) {
-    .header_links1 {
-        display: none;
-    }
-    .menu {
-        display: none;
-    }
-}
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            @font-face {
+                font-family: 'MAK';
+                src: url('../font/MAK-bold.otf');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+             :root {
+                --font1: 'MAK', sans-serif;
+                --font2: 'Luckiest+Guy', sans-serif;
+                --color1: rgba(1, 3, 8, 0.877);
+                --color2: rgb(239, 241, 248);
+                --color3: rgb(50, 231, 201);
+            }
+            
+            body {
+                background: var(--color1);
+            }
+            
+            .lines {
+                width: 100%;
+                height: 100vh;
+                background: url('../img/lines.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                opacity: 0.05;
+            }
+            
+            header {
+                position: absolute;
+                width: 100%;
+                height: 8vh;
+                top: 0;
+                left: 0;
+                color: var(--color2);
+                padding: 0 2rem;
+            }
+            
+            nav {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .menu {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                list-style: none;
+                width: 500px;
+            }
+            
+            .menu li a {
+                text-decoration: none;
+                color: var(--color2);
+                font-family: var(--font1);
+                font-size: 1rem;
+            }
+            
+            .toggle {
+                display: none;
+            }
+            
+            .logo {
+                font-size: 2rem;
+            }
+            
+            .slogan {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            
+            .slogan_inner {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 10rem;
+                color: var(--color3);
+            }
+            
+            .triangle {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 140px 280px 140px;
+                position: absolute;
+                transform: rotate(30deg);
+            }
+            
+            .triangle1 {
+                top: 25%;
+                left: 99%;
+                transform: rotate(90deg);
+                border-color: transparent transparent red;
+            }
+            
+            .triangle2 {
+                bottom: 100%;
+                right: 20%;
+                transform: rotate(70deg);
+                border-width: 0 100px 200px 100px;
+                border-color: transparent transparent blue;
+            }
+            
+            .triangle3 {
+                top: 90%;
+                right: 50%;
+                transform: rotate(330deg);
+                border-width: 0 140px 200px 140px;
+                border-color: transparent transparent green;
+            }
+            
+            .triangle4 {
+                bottom: 70%;
+                right: 80%;
+                transform: rotate(85deg);
+                border-width: 0 140px 200px 140px;
+                border-color: transparent transparent yellow;
+            }
+            /*responsive*/
+            
+            @media all and (max-width:790px) {
+                header {
+                    background: transparent;
+                }
+                .toggle {
+                    display: block;
+                    font-size: 2rem;
+                    cursor: pointer;
+                    position: relative;
+                    z-index: 20;
+                }
+                .logo {
+                    position: relative;
+                    z-index: 20;
+                }
+                .ouvrir {
+                    display: block;
+                }
+                .fermer {
+                    display: none;
+                }
+                .open .ouvrir {
+                    display: none;
+                }
+                .open .fermer {
+                    display: block;
+                }
+                .menu {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100vh;
+                    flex-direction: column;
+                    padding: 2rem;
+                    justify-content: space-around;
+                    transform: translateX(-100%);
+                    transition: transform 1s;
+                    background-color: black;
+                }
+                .menu li a {
+                    font-size: 1rem;
+                    cursor: pointer;
+                }
+                .open .menu {
+                    transform: translateX(0);
+                }
+                .slogan_inner {
+                    position: absolute;
+                    flex-direction: column;
+                    font-size: 2rem;
+                    color: var(--color3);
+                    top: 0;
+                    width: 100%;
+                    height: 100vh;
+                }
+                .slogan {
+                    display: block;
+                }
+                .triangles {
+                    display: none;
+                }
+            }

@@ -34,7 +34,7 @@ tl.to('.letter3', {
 tl.to('.letter4', {
     duration: 0.5,
     delay: -0.5,
-    fontSize: '8rem',
+    fontSize: '15rem',
     x: 20,
     y: -120,
 })
@@ -42,7 +42,7 @@ tl.to('.letter4', {
 tl.to('.letter5', {
     duration: 0.5,
     delay: -0.5,
-    fontSize: '8rem',
+    fontSize: '10rem',
     x: 8,
     y: -90,
 })
@@ -79,6 +79,7 @@ tl.to('.letter9', {
     y: -200,
 })
 
+
 tl.from('header', {
     duration: 0.5,
     y: 40,
@@ -90,7 +91,31 @@ tl.from('.triangle', {
     opacity: 0
 }), "<0.5"
 
+tl.to('.triangle', {
+    duration: 2,
+    opacity: 0
+}), ">0.5"
+
 tl.from('.lines', {
     duration: 0.5,
     opacity: 0
 }), "<0.5"
+
+tl.to('.letter', {
+    duration: 1.5,
+    opacity: 0,
+    stagger: 0.25,
+    color: '#bd32e7'
+})
+"<0.5"
+
+
+
+
+
+let toggle = document.querySelector('.toggle');
+let body = document.querySelector('body');
+
+toggle.addEventListener('click', function() {
+    body.classList.toggle('open');
+})
