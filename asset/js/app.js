@@ -1,7 +1,7 @@
 let tl = gsap.timeline();
 
 tl.from('.letter', {
-    duration: 1,
+    duration: 2,
     opacity: 0,
     stagger: 0.25,
     color: '#bd32e7'
@@ -11,89 +11,89 @@ tl.from('.letter', {
 tl.to('.letter1', {
     duration: 0.5,
     delay: 0.5,
-    fontSize: '15rem',
-    x: -200,
-    y: 100,
+    fontSize: '4rem',
+    x: -1,
+    y: 0,
 })
 
 tl.to('.letter2', {
     duration: 0.5,
-    delay: -0.5,
-    fontSize: '14rem',
-    x: 1,
-    y: -1,
+    delay: 1,
+    fontSize: '4rem',
+    x: 120,
+    y: 1,
 })
 
 tl.to('.letter3', {
     duration: 0.5,
-    delay: -0.5,
-    fontSize: '8rem',
-    x: -150,
-    y: 200,
+    delay: 1.5,
+    fontSize: '4rem',
+    x: 2,
+    y: -1,
 })
 
 tl.to('.letter4', {
     duration: 0.5,
-    delay: -0.5,
-    fontSize: '15rem',
-    x: 20,
-    y: -120,
+    delay: 1.5,
+    fontSize: '4rem',
+    x: 400,
+    y: -400,
 })
 
 tl.to('.letter5', {
     duration: 0.5,
-    delay: -0.5,
-    fontSize: '10rem',
-    x: 8,
-    y: -90,
+    delay: 0.5,
+    fontSize: '4rem',
+    x: 60,
+    y: -1,
 })
 
 tl.to('.letter6', {
     duration: 0.5,
-    delay: -0.5,
-    fontSize: '7rem',
-    x: -100,
-    y: 100,
+    delay: 2,
+    fontSize: '4rem',
+    x: -400,
+    y: 500,
 })
 
 tl.to('.letter7', {
     duration: 0.5,
-    delay: -0.5,
-    fontSize: '8rem',
-    x: 10,
-    y: 100,
+    delay: 1.5,
+    fontSize: '4rem',
+    x: 80,
+    y: -1,
 })
 
 tl.to('.letter8', {
     duration: 0.5,
-    delay: -0.5,
-    fontSize: '12rem',
-    x: 100,
-    y: 150,
+    delay: 1.5,
+    fontSize: '4rem',
+    x: 0,
+    y: -1,
 })
 
 tl.to('.letter9', {
     duration: 0.5,
-    delay: -0.5,
-    fontSize: '15rem',
-    x: 20,
-    y: -200,
+    delay: 1.5,
+    fontSize: '4rem',
+    x: 400,
+    y: -400,
 })
 
 
 tl.from('header', {
     duration: 0.5,
-    y: 40,
+    y: 50,
     opacity: 0
 })
 
 tl.from('.triangle', {
-    duration: 0.5,
+    duration: 4,
     opacity: 0
 }), "<0.5"
 
 tl.to('.triangle', {
-    duration: 2,
+    duration: 4,
     opacity: 0
 }), ">0.5"
 
@@ -103,9 +103,9 @@ tl.from('.lines', {
 }), "<0.5"
 
 tl.to('.letter', {
-    duration: 1.5,
+    duration: 5,
     opacity: 0,
-    stagger: 0.25,
+    stagger: 2,
     color: '#bd32e7'
 })
 "<0.5"
