@@ -176,10 +176,16 @@
                 .open .menu {
                     transform: translateX(0);
                 }
+                .slogan {
+                    position: absolute;
+                    top: 20%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
                 .slogan_inner {
                     position: absolute;
                     flex-direction: column;
-                    font-size: 4rem;
+                    font-size: 5rem;
                     color: var(--color3);
                     top: 0;
                     width: 100%;
