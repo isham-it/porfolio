@@ -185,7 +185,7 @@
                 .slogan_inner {
                     position: absolute;
                     flex-direction: column;
-                    font-size: 4rem;
+                    font-size: 55px;
                     color: var(--color3);
                     top: 0;
                     width: 100%;
