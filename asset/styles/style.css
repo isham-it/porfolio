@@ -13,7 +13,7 @@
             
              :root {
                 --font1: 'MAK', sans-serif;
-                --font2: 'Luckiest+Guy', sans-serif;
+                --font2: 'Fjalla+One', sans-serif;
                 --color1: rgba(1, 3, 8, 0.877);
                 --color2: rgb(239, 241, 248);
                 --color3: rgb(50, 231, 201);
@@ -179,7 +179,7 @@
                 .slogan_inner {
                     position: absolute;
                     flex-direction: column;
-                    font-size: 2rem;
+                    font-size: 4rem;
                     color: var(--color3);
                     top: 0;
                     width: 100%;
