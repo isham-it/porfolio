@@ -5,6 +5,7 @@ tl.from('.letter', {
     opacity: 0,
     stagger: 0.25,
     color: '#bd32e7'
+
 })
 
 tl.to('.letter1', {
