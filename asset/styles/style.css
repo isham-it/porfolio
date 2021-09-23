@@ -135,13 +135,14 @@
                 }
                 .toggle {
                     display: block;
-                    font-size: 2rem;
+                    font-size: 1rem;
                     cursor: pointer;
                     position: relative;
                     z-index: 20;
                 }
                 .logo {
                     position: relative;
+                    font-size: 1rem;
                     z-index: 20;
                 }
                 .logo span {
