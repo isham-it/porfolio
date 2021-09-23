@@ -36,8 +36,8 @@ tl.to('.letter4', {
     duration: 0.5,
     delay: 1.5,
     fontSize: '4rem',
-    x: 400,
-    y: -400,
+    x: 290,
+    y: -300,
 })
 
 tl.to('.letter5', {
@@ -52,8 +52,8 @@ tl.to('.letter6', {
     duration: 0.5,
     delay: 2,
     fontSize: '4rem',
-    x: -400,
-    y: 500,
+    x: -350,
+    y: 300,
 })
 
 tl.to('.letter7', {
@@ -76,8 +76,8 @@ tl.to('.letter9', {
     duration: 0.5,
     delay: 1.5,
     fontSize: '4rem',
-    x: 400,
-    y: -400,
+    x: 300,
+    y: 300,
 })
 
 
@@ -103,9 +103,9 @@ tl.from('.lines', {
 }), "<0.5"
 
 tl.to('.letter', {
-    duration: 5,
+    duration: 1,
     opacity: 0,
-    stagger: 2,
+    stagger: 0.5,
     color: '#bd32e7'
 })
 "<0.5"
