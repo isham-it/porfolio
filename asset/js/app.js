@@ -1,3 +1,5 @@
+/* LOGO portfolio Javascript */
+
 let tl = gsap.timeline();
 
 tl.from('.letter', {
@@ -113,6 +115,7 @@ tl.to('.letter', {
 
 
 
+/*toggle javascript for responsive*/
 
 let toggle = document.querySelector('.toggle');
 let body = document.querySelector('body');
