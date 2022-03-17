@@ -117,6 +117,8 @@
         font-weight: 500;
         cursor: pointer;
         padding: 14px 15px;
+        outline: 2px solid black;
+        outline-offset: 2px;
     }
     
     .inputBox ::placeholder {

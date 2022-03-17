@@ -3,7 +3,7 @@
 let tl = gsap.timeline();
 
 tl.from('.letter', {
-    duration: 2,
+    duration: 0.2,
     opacity: 0,
     stagger: 0.25,
     color: '#bd32e7'
@@ -11,7 +11,7 @@ tl.from('.letter', {
 })
 
 tl.to('.letter1', {
-    duration: 0.5,
+    duration: 0.2,
     delay: 0.5,
     fontSize: '4rem',
     x: -1,
@@ -19,7 +19,7 @@ tl.to('.letter1', {
 })
 
 tl.to('.letter2', {
-    duration: 0.5,
+    duration: 0.2,
     delay: 1,
     fontSize: '4rem',
     x: 120,
@@ -27,7 +27,7 @@ tl.to('.letter2', {
 })
 
 tl.to('.letter3', {
-    duration: 0.5,
+    duration: 0.2,
     delay: 1.5,
     fontSize: '4rem',
     x: 2,
@@ -35,7 +35,7 @@ tl.to('.letter3', {
 })
 
 tl.to('.letter4', {
-    duration: 0.5,
+    duration: 0.2,
     delay: 1.5,
     fontSize: '4rem',
     x: 290,
@@ -43,7 +43,7 @@ tl.to('.letter4', {
 })
 
 tl.to('.letter5', {
-    duration: 0.5,
+    duration: 0.2,
     delay: 0.5,
     fontSize: '4rem',
     x: 60,
@@ -51,7 +51,7 @@ tl.to('.letter5', {
 })
 
 tl.to('.letter6', {
-    duration: 0.5,
+    duration: 0.2,
     delay: 2,
     fontSize: '4rem',
     x: -350,
@@ -59,7 +59,7 @@ tl.to('.letter6', {
 })
 
 tl.to('.letter7', {
-    duration: 0.5,
+    duration: 0.2,
     delay: 1.5,
     fontSize: '4rem',
     x: 80,
@@ -67,7 +67,7 @@ tl.to('.letter7', {
 })
 
 tl.to('.letter8', {
-    duration: 0.5,
+    duration: 0.2,
     delay: 1.5,
     fontSize: '4rem',
     x: 0,
@@ -75,7 +75,7 @@ tl.to('.letter8', {
 })
 
 tl.to('.letter9', {
-    duration: 0.5,
+    duration: 0.2,
     delay: 1.5,
     fontSize: '4rem',
     x: 300,
@@ -90,12 +90,12 @@ tl.from('header', {
 })
 
 tl.from('.triangle', {
-    duration: 4,
+    duration: 2,
     opacity: 0
 }), "<0.5"
 
 tl.to('.triangle', {
-    duration: 4,
+    duration: 2,
     opacity: 0
 }), ">0.5"
 
@@ -105,7 +105,7 @@ tl.from('.lines', {
 }), "<0.5"
 
 tl.to('.letter', {
-    duration: 1,
+    duration: 0.5,
     opacity: 0,
     stagger: 0.5,
     color: '#bd32e7'
